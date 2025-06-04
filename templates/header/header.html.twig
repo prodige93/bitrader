@@ -1,0 +1,46 @@
+<header class="header-section bg-color-3">
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="{{ path('app_home') }}">
+                        <img class="dark" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-area">
+                    <ul class="menu menu--style1">
+                        <li>
+                            <a href="#0">Demos</a>
+                            <ul class="submenu">
+                                <li><a href="{{ path('app_home_stock') }}">Home Stock</a></li>
+                                <!-- Add other demo links -->
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#0">Services</a>
+                            <ul class="submenu">
+                                <li><a href="{{ path('app_services') }}">Services</a></li>
+                                <li><a href="{{ path('app_service_details') }}">Services Details</a></li>
+                            </ul>
+                        </li>
+                        <!-- Add other menu items -->
+                    </ul>
+                </div>
+                <div class="header-action">
+                    <div class="menu-area">
+                        <div class="header-btn">
+                            <a href="{{ path('app_register') }}" class="trk-btn trk-btn--border trk-btn--primary">
+                                <span>Join Now</span>
+                            </a>
+                        </div>
+                        <div class="header-bar d-lg-none home1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
